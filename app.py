@@ -38,6 +38,7 @@ actual_balances = {
     }
 }
 
+
 @app.route('/balances', methods=['GET'])
 async def get_config(data: Request):
     print(data.get_query_args())
